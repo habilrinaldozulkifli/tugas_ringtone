@@ -1,0 +1,108 @@
+void setup() {
+  pinMode(9, OUTPUT); // pin9 sebagai output pada buzzer
+}
+
+// Lagu Burung Kakak Tua
+void loop() {
+  sol();
+  sol();
+  mi();
+  DO();
+  mi();
+  re();
+
+  jeda();
+
+  mi();
+  fa();
+  la();
+  sol();
+  fa();
+  mi();
+
+  jeda();
+
+  sol();
+  sol();
+  mi();
+  DO();
+  mi();
+  re();
+
+  jeda();
+
+  si();
+  la();
+  sol();
+  fa();
+  mi();
+  re();
+  Do();
+
+  jeda();
+
+  mi();
+  sol();
+  diam();
+  mi();
+  sol();
+  diam();
+  sol();
+  la();
+  la();
+  la();
+  la();
+
+  jeda();
+
+  mi();
+  sol();
+  diam();
+  mi();
+  sol();
+  diam();
+  sol();
+  la();
+  la();
+  la();
+  la();
+
+  DO();
+  si();
+  sol();
+  la();
+  si();
+  DO();
+}
+
+void Do(){
+  tone(9, 523);
+}
+void re(){
+  tone(9, 587);
+}
+void mi(){
+  tone(9, 659);
+}
+void fa(){
+  tone(9, 698);
+}
+void sol(){
+  tone(9, 784);
+}
+void la(){
+  tone(9, 880);
+}
+void si (){
+  tone(9, 880);
+}
+void DO(){
+  tone(9, 1047);
+}
+void jeda(){
+  noTone(11);
+  delay(100);
+}
+void diam(){
+  delay(300);
+}
