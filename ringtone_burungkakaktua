@@ -100,7 +100,7 @@ void DO(){
   tone(9, 1047);
 }
 void jeda(){
-  noTone(11);
+  noTone(9);
   delay(100);
 }
 void diam(){
